@@ -12,8 +12,9 @@ int main(){
     printf("Enter any marks :");
     scanf("%d",&user);
 
-
-    if (user >= 85 )
+    if (user > 0 && user <= 100)
+    {
+        if (user >= 85 )
     {
         printf("Grade A");
     }
@@ -28,6 +29,17 @@ int main(){
     else{
         printf("Grade D");
     }
+
+    
+    }
+
+    else{
+        printf(" <--------------enter a value under 100------------------> ");
+    }
+    
+
+
+    
     
     
        
